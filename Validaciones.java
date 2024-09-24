@@ -15,7 +15,7 @@ public class Validaciones {
 	}
 
 	public boolean constante(String palabra) {
-		String regex = "\"[0-9a-zA-Z_]*\"|\\d+";
+		String regex = "\"[0-9a-zA-Z_ ]*\"|\\d+";
 		return palabra.matches(regex);
 	}
 
